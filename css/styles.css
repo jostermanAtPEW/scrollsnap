@@ -1,0 +1,49 @@
+main {
+    max-width: 990px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.snap-div {
+    width: 20%;
+    position: relative;
+    flex-shrink: 0;
+    margin: 0 0.34%;
+    display: inline;
+}
+.city-row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+}
+.city-row figure {
+    width: 20%;
+    position: relative;
+    flex-shrink: 0;
+    margin: 0.34%;
+}
+.figure-inner {
+    
+    width: 100%;
+  
+    display: block;
+    background-color: #969696;
+    padding-bottom: 120%;
+}
+h2 {
+    font-family: sans-serif;
+    margin: 10px 0 2px 0;
+    position: sticky;
+    left: 0;
+
+}
+label {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
